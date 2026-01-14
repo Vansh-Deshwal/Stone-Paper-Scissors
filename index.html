@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet"
-  />
-
-  <link rel="stylesheet" href="style.css" />
-
   <body>
-    <div class="app-container">
-      <h1 class="main-heading">Rock Paper Scissors</h1>
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
 
       <div class="btn-container">
         <button class="btns js-rock-button">
@@ -33,20 +33,20 @@
         </button>
       </div>
 
-      <div class="output2" style="margin: 2rem 0rem"></div>
+      <div class="output2"></div>
 
-      <div class="output" style="margin: 2rem 0rem"></div>
+      <div class="output"></div>
 
-      <div class="win-loss-tie-container" style="margin: 4rem 0rem">
+      <div class="win-loss-tie-container">
         Wins: 0 | Losses: 0 | Ties: 0
       </div>
 
-      <div class="reset-and-autoPlay-btn-container">
+      <div class="controls">
         <button class="reset-btn">Reset Score</button>
-
         <button class="auto-play-button">Auto Play</button>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
