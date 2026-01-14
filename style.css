@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", "Sans-serif";
   background-color: rgb(25, 25, 25);
   color: white;
-  padding: 2rem;
+  padding: 10px;
 }
 
 .main-heading {
@@ -116,4 +116,5 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 
