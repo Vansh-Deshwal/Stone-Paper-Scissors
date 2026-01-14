@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: 10px;
 }
 
 .container {
@@ -131,3 +131,4 @@ h1 {
     width: 100%;
   }
 }
+
