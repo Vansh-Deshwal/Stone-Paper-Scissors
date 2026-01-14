@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins", "Sans-serif";
+  background-color: rgb(25, 25, 25);
+  color: white;
+  padding: 2rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+}
+
+.btns {
+  width: clamp(4.5rem, 20vw, 9rem);
+  aspect-ratio: 1 / 1;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border: 3px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-img {
+  width: 55%;
+  height: auto;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.output2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.output {
+  font-size: 1.3rem;
+}
+
+.win-loss-tie-container {
+  font-size: 1.3rem;
+}
+
+.reset-btn,
+.auto-play-button {
+  width: 9rem;
+  height: 3rem;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .output {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .output .game-img {
+    width: clamp(3.5rem, 25vw, 5rem);
+  }
+
+  .output2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.output .game-img {
+  width: clamp(3rem, 18vw, 6rem);
+  max-width: 6rem;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.output,
+.output2,
+.win-loss-tie-container {
+  text-align: center;
+}
+
+
+.reset-and-autoPlay-btn-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
